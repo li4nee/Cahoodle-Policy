@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cahoodle Privacy Policy</title>
+<meta name="description" content="How Cahoodle handles your information.">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; color: #2b1822; background: #fff6e9; }
+  h1 { font-size: 28px; margin: 8px 0 4px; }
+  h2 { font-size: 20px; margin-top: 32px; border-bottom: 1px solid #e8d3c0; padding-bottom: 4px; }
+  a { color: #b83d63; }
+  code { background: #f3e3cf; padding: 1px 5px; border-radius: 4px; }
+  hr { border: 0; border-top: 1px solid #e8d3c0; margin: 32px 0; }
+  @media (prefers-color-scheme: dark) { body { color: #f3e4ea; background: #1f1319; } code { background: #33222a; } hr, h2 { border-color: #4a3540; } a { color: #ff7fa3; } }
+</style>
+</head>
+<body>
+<h1>Cahoodle Privacy Policy</h1>
+<p><em>Last updated: 4 October 2026</em></p>
+<p>Cahoodle (&quot;Cahoodle&quot;, &quot;the app&quot;, &quot;we&quot;, &quot;us&quot;) is a game app for two people in a relationship. This policy explains what information the app uses, why, who can see it, how long it is kept, and how to delete it or ask about it.</p>
+<p><strong>Contact (data controller):</strong> nishant@smoothmock.com</p>
+<h2>1. Information we collect</h2>
+<p><strong>a) Sign-in information (from Google).</strong> When you sign in with Google, we receive from Google:</p>
+<ul>
+<li>your name,</li>
+<li>your email address,</li>
+<li>your profile photo URL,</li>
+<li>a unique Firebase user ID.</li>
+</ul>
+<p>We do not receive your Google password.</p>
+<p><strong>b) Pairing information.</strong></p>
+<ul>
+<li>When you create an invite code, we store the code, the time it was created, and when it expires (10 minutes later). The code is deleted when it is used, revoked, or expires.</li>
+<li>When a pairing is made, we store a link between your profile and your partner&#x27;s, and a shared &quot;couple&quot; record.</li>
+</ul>
+<p><strong>c) Information you give the app.</strong></p>
+<ul>
+<li><strong>Your nickname for your partner</strong> (optional). This is what *you* call your partner. It is stored on your profile. Your partner&#x27;s app does not display it, but the database rules allow your partner to read your profile, so please do not write anything private here.</li>
+<li><strong>Custom questions</strong> you write in &quot;Our Questions&quot;. These are shared only with your paired partner.</li>
+<li><strong>Game history</strong>: the game played, the round count, the names shown in that game, and the scores. Shared only with your paired partner.</li>
+<li><strong>Live game state</strong> during an online game: whose turn it is, the current answers and picks, and the question order. This is removed when the game ends or either of you leaves.</li>
+</ul>
+<p><strong>d) Information stored only on your device.</strong></p>
+<ul>
+<li>Names and round count you last used on setup screens, so they are pre-filled next time.</li>
+<li>Whether you have seen a game&#x27;s &quot;How to play&quot; section.</li>
+<li>Short-lived counters that limit repeated attempts (for example, wrong pairing codes or sign-in tries). These are kept for a few minutes or hours and then ignored.</li>
+</ul>
+<p><strong>e) App security information.</strong></p>
+<ul>
+<li><strong>Firebase App Check with Google Play Integrity.</strong> To confirm that requests come from a genuine copy of Cahoodle, the app asks Google Play for an integrity token and sends it to Firebase. The token confirms the app is genuine. It does not identify you and is not used for advertising or tracking.</li>
+<li><strong>Firebase installation ID.</strong> Firebase gives each install a random identifier so it can work with the database. It is not linked to advertising.</li>
+</ul>
+<p><strong>We do not collect:</strong> location, contacts, photos or files from your device, camera or microphone input, phone number, payment information, advertising identifiers, or any analytics or crash-reporting data. The app contains no advertising or analytics software.</p>
+<h2>2. How we use your information</h2>
+<p>Only to run Cahoodle:</p>
+<ul>
+<li>signing you in,</li>
+<li>pairing you with your partner,</li>
+<li>letting you play together and see your shared history,</li>
+<li>keeping the app secure (for example, blocking tampered copies of the app and limiting repeated attempts),</li>
+<li>responding to your requests and questions.</li>
+</ul>
+<p>We do <strong>not</strong> sell your information, use it for advertising, or use it to build profiles.</p>
+<h2>3. Who can see your information</h2>
+<ul>
+<li><strong>You</strong>: everything in your profile and any shared content.</li>
+<li><strong>Your paired partner</strong>: your shared game history, shared custom questions, and during an online game the live game state. The app shows your partner your name and photo. Your partner&#x27;s app can also read the rest of your profile document (including your email address and the nickname you set for them), which is why the nickname should not hold anything private.</li>
+<li><strong>Other people</strong>: no one else can see your information through the app. Our database rules (in <code>firestore.rules</code>) enforce this on Google&#x27;s servers, so a modified app or a script with a Google sign-in cannot read another couple&#x27;s data.</li>
+<li><strong>Us (the developer)</strong>: because Cahoodle is a small app, the developer can access the Firebase console for maintenance, support and to fix faults. We access data only for those purposes and do not browse it for other reasons.</li>
+</ul>
+<h2>4. Service providers</h2>
+<p>We use these Google services to run the app. Each processes information only on our instructions:</p>
+<ul>
+<li><strong>Firebase Authentication and Google Sign-In:</strong> sign-in. Google&#x27;s Privacy Policy applies to your Google account: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li><strong>Cloud Firestore:</strong> storage of profiles, pairings, shared history and custom questions.</li>
+<li><strong>Firebase App Check and Google Play Integrity:</strong> app-integrity checks, described in section 1(e).</li>
+</ul>
+<p>We do not share your information with advertisers, data brokers or any other third party.</p>
+<p>Google&#x27;s servers may be located outside your country, including in the United States. Google provides safeguards for these transfers under its own terms.</p>
+<h2>5. How long we keep it</h2>
+<ul>
+<li><strong>Your profile</strong> (name, email, photo, nickname, pairing link): until you delete your account.</li>
+<li><strong>Invite codes</strong>: 10 minutes, or until used or revoked.</li>
+<li><strong>Shared history, custom questions and live game state</strong>: until you unlink from your partner, or delete your account. Unlinking deletes the couple&#x27;s shared data for both of you.</li>
+<li><strong>On-device settings and attempt counters</strong>: until you clear the app&#x27;s data or uninstall the app.</li>
+<li><strong>Backups</strong>: Google may keep backups for a limited period after deletion, under its own retention policy.</li>
+</ul>
+<h2>6. Deleting your information</h2>
+<p><strong>In the app:</strong> Profile → <strong>Delete account</strong>. This:</p>
+<ul>
+<li>deletes your Google sign-in from Firebase Authentication,</li>
+<li>deletes your profile (name, email, photo, nickname),</li>
+<li>unlinks you from your partner, and</li>
+<li>deletes the shared game history, custom questions and live game state for both of you.</li>
+</ul>
+<p>Deletion is immediate in the app. Copies in Google&#x27;s backups are removed under Google&#x27;s retention schedule.</p>
+<p><strong>Without the app:</strong> email nishant@smoothmock.com from the address you signed in with, and we will delete your account and data. We may ask you to confirm your identity first. We aim to respond within 30 days.</p>
+<p><strong>Uninstalling</strong> the app removes data stored on your device, but not your account or shared data. Delete your account first if you want everything removed.</p>
+<h2>7. Your choices and rights</h2>
+<p>Depending on where you live, you may have the right to:</p>
+<ul>
+<li>access the information we hold about you,</li>
+<li>correct inaccurate information (you can change your name, photo and nickname in the app),</li>
+<li>delete your information (see section 6),</li>
+<li>receive a copy of your information in a common format,</li>
+<li>object to or restrict some processing,</li>
+<li>withdraw consent, by deleting your account,</li>
+<li>complain to your local data protection authority.</li>
+</ul>
+<p>To use any of these rights, contact nishant@smoothmock.com. We will not treat you differently for using them.</p>
+<p><strong>California residents:</strong> we do not sell or share personal information for cross-context behavioural advertising.</p>
+<p><strong>EU/UK residents:</strong> the lawful basis for processing is performance of the service you asked for (section 2), and our security and legitimate interest in keeping the app safe.</p>
+<h2>8. Security</h2>
+<p>We protect your information with:</p>
+<ul>
+<li>encryption in transit (HTTPS/TLS),</li>
+<li>Firestore security rules that limit each record to its owner and their partner,</li>
+<li>App Check to block tampered or scripted clients,</li>
+<li>limits on repeated actions (for example, invite codes and writes),</li>
+<li>invite codes of 8 random characters that expire after 10 minutes.</li>
+</ul>
+<p>No online service is perfectly secure. If we learn of a breach affecting your information, we will tell you as the law requires.</p>
+<h2>9. Children</h2>
+<p>Cahoodle is for adults aged 18 and over. It is not directed at children, and we do not knowingly collect information from anyone under 18. If you believe a child has used the app, contact us and we will delete the account.</p>
+<h2>10. Changes to this policy</h2>
+<p>If we change this policy, we will update the &quot;Last updated&quot; date above and, for material changes, tell you in the app before they take effect.</p>
+<h2>11. Contact</h2>
+<p>Questions, requests or complaints: <strong>nishant@smoothmock.com</strong></p>
+<hr>
+<p><em>This policy describes what the app does as of the date above. It is a good-faith document, not legal advice. Have a lawyer in your jurisdiction review it before you rely on it.</em></p>
+</body>
+</html>
